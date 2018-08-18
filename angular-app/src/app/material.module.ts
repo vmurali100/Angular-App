@@ -13,7 +13,10 @@ import {MatButtonModule,
     MatCardModule,
     MatSelectModule,
     MatProgressSpinnerModule,
-    MatDialogModule
+    MatDialogModule,
+    MatTableModule,
+    MatSortModule,
+    MatPaginatorModule
     } from '@angular/material';
 @NgModule({
     imports: [MatButtonModule, 
@@ -30,13 +33,19 @@ import {MatButtonModule,
                 MatCardModule,
                 MatSelectModule,
                 MatProgressSpinnerModule,
-                MatDialogModule
+                MatDialogModule,
+                MatTableModule,
+                MatSortModule,
+                MatPaginatorModule   
 ],
     exports: [MatButtonModule,
+        MatTableModule,
         MatSelectModule,
         MatProgressSpinnerModule,
         MatCardModule,
         MatDialogModule,
+        MatSortModule,
+        MatPaginatorModule,
             MatTabsModule, 
             MatCheckboxModule,    
             MatFormFieldModule,
